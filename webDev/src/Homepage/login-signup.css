@@ -1,0 +1,146 @@
+/* Login.css */
+
+/* Centering the form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Style for the header */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style for input fields */
+input {
+    height: 30px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Style for remember me label */
+/*.rem {*/
+/*    width: 400px;*/
+/*    display: flex;*/
+/*    !*flex-direction: row;*!*/
+/*    justify-content: initial;*/
+/*    !*!*float: column;*!*!*/
+
+/*    margin-bottom: 15px;*/
+/*    font-size: 14px;*/
+/*}*/
+.for-sig{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+/* Style for submit button */
+.sign-in-button {
+    width: 400px;
+    border-radius: 4px;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+
+    background-color: #0056b3;
+}
+
+/* Style for forgot password and sign up links */
+div {
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    margin-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+       /* SignUp.css */
+
+       /* Centering the form */
+   form {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-top: 20px;
+   }
+
+/* Style for the header */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style for input fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Style for submit button */
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style for sign-in link */
+div {
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.remember-forgot{
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*flex-direction: column;*/
+    /*justify-content: space-between;*/
+    font-size: 14.5px;
+    margin: 15px 0 15px;
+    color: black;
+}
+.remember-forgot label input{
+    accent-color: black;
+    margin-right: 4px;
+}
